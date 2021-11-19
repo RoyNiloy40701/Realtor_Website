@@ -1,0 +1,24 @@
+.custom-position {
+  position: absolute;
+  top: 40%;
+  left: 9%;
+}
+h1{
+  font-size: 70px;
+}
+
+@media only screen and (max-width: 688px) {
+  .custom-position {
+    position: relative;
+    top: -140px;
+    width: 310px;
+  }
+  h1 {
+    color: white;
+    font-size: 35px;
+  }
+  p {
+    color: white;
+    font-size: 12px;
+  }
+}
